@@ -1,0 +1,92 @@
+# Local game installations and third-party data
+/STEINS;GATE/
+/game_data/
+/third_party_data/
+/downloads/
+
+# Extracted, curated, generated, and packaged audio assets
+/source/
+/datasets/
+/evaluation/
+/work/
+/package/
+/models/
+/logs/
+/cache/
+/tmp/
+
+# Generated inventories can contain local paths and source fingerprints
+/manifests/*.csv
+/manifests/*.json
+/manifests/*.jsonl
+/manifests/*.parquet
+
+# Game archives, media, and proprietary binaries
+*.mpk
+*.cpk
+*.pak
+*.pck
+*.archive
+*.wem
+*.bnk
+*.bk2
+*.usm
+*.exe
+*.dll
+
+# Audio and video data
+*.wav
+*.wave
+*.flac
+*.ogg
+*.opus
+*.mp3
+*.m4a
+*.aac
+*.wma
+*.mp4
+*.mkv
+*.webm
+
+# Models, checkpoints, embeddings, and indices
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.index
+*.faiss
+*.npy
+*.npz
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.*
+secrets.*
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
