@@ -1,6 +1,6 @@
 # Voice Conversion Workbench
 
-A private, local-first workspace for building and evaluating reproducible voice
+A local-first workspace for building and evaluating reproducible voice
 conversion pipelines.
 
 This repository tracks project documentation and reusable tooling only. Source
@@ -15,4 +15,3 @@ and other sensitive or copyrighted assets are intentionally excluded from Git.
 - Review `git status` before every commit.
 - Do not publish trained models or derived media without an explicit rights and
   privacy review.
-
